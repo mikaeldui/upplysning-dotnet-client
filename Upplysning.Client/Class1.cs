@@ -1,4 +1,4 @@
-namespace {{Namespace}}
+namespace Upplysning
 {
     public class Class1
     {

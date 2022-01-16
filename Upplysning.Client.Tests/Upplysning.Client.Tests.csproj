@@ -4,9 +4,9 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <IsPackable>false</IsPackable>
-    <RootNamespace>{{Namespace}}.Tests</RootNamespace>
-    <Authors>{{OwnerName}}</Authors>
-    <Product>{{Prefix}}.{{ProjectName}}</Product>
+    <RootNamespace>Upplysning.Tests</RootNamespace>
+    <Authors>Mikael Dúi Bolinder</Authors>
+    <Product>MikaelDui.Upplysning.Client</Product>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\{{ProjectName}}\{{ProjectName}}.csproj" />
+    <ProjectReference Include="..\Upplysning.Client\Upplysning.Client.csproj" />
   </ItemGroup>
 
 </Project>
