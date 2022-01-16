@@ -14,8 +14,9 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>Upplysning.Client.png</PackageIcon>
     <RepositoryUrl>https://github.com/mikaeldui/upplysning-dotnet-client</RepositoryUrl>
-    <PackageTags></PackageTags>
+    <PackageTags>Sweden; Personnummer; SocialSecurityNumber; Addresses; PersonalInformation; Spider; Crawler; People</PackageTags>
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
+    <AssemblyName>MikaelDui.Upplysning.Client</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
