@@ -12,3 +12,7 @@ You can install it using the following **.NET CLI** command:
 
 Lookup the address of a person.
 
+    using UpplysningClient client = new();
+    var result = await client.GetPeopleAsync("Anna");
+    foreach(var person in result)
+        Console.WriteLines($"{person.Name} lives on {person.Address} in {person.Address}.");
